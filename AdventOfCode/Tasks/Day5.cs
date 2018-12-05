@@ -33,23 +33,14 @@ namespace AdventOfCode.Tasks
 
         public int PolymerReaction(string polymer)
         {
-            for (int i = 0; i < polymer.Length; i++)
+            for (int i = 0; i < polymer.Length - 1; i++)
             {
-                if (i == 0 && Math.Abs(polymer[i] - polymer[i + 1]) == 32)
+                if (Math.Abs(polymer[i] - polymer[i + 1]) == 32)
                 {
                     polymer = polymer.Remove(i, 2);
                     i = -1;
                 }
-                else if (i != 0 && Math.Abs(polymer[i] - polymer[i - 1]) == 32)
-                {
-                    polymer = polymer.Remove(i - 1, 2);
-                    i = -1;
-                }
-                else if (i != polymer.Length - 1 && Math.Abs(polymer[i] - polymer[i + 1]) == 32)
-                {
-                    polymer = polymer.Remove(i, 2);
-                    i = -1;
-                }
+                
             }
 
             return polymer.Length;

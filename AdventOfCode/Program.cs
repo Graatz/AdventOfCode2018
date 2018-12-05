@@ -29,7 +29,7 @@ namespace AdventOfCode
 
             Day5 day5 = new Day5("Inputs/day5.txt");
             Console.WriteLine(day5.Part1());
-            Console.WriteLine(day5.Part2());
+            //Console.WriteLine(day5.Part2());
             Console.ReadLine();
         }
     }
