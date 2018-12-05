@@ -673,11 +673,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\graat\\source\\repos\\AdventOfCode\\AdventOfCode\\AdventOfCode.csproj",
+      "projectUniqueName": "D:\\Graatz\\Desktop\\AdventOfCode\\AdventOfCode\\AdventOfCode.csproj",
       "projectName": "AdventOfCode",
-      "projectPath": "C:\\Users\\graat\\source\\repos\\AdventOfCode\\AdventOfCode\\AdventOfCode.csproj",
+      "projectPath": "D:\\Graatz\\Desktop\\AdventOfCode\\AdventOfCode\\AdventOfCode.csproj",
       "packagesPath": "C:\\Users\\graat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\graat\\source\\repos\\AdventOfCode\\AdventOfCode\\obj\\",
+      "outputPath": "D:\\Graatz\\Desktop\\AdventOfCode\\AdventOfCode\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

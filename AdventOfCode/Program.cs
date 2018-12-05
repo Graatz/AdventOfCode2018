@@ -6,7 +6,7 @@ namespace AdventOfCode
     class Program
     {
         static void Main(string[] args)
-        {
+        {/*
             Day1 day1 = new Day1("Inputs/day1.txt");
             Console.WriteLine("Day 1 Part 1: " + day1.Part1());
             Console.WriteLine("Day 1 Part 2: " + day1.Part2());
@@ -20,6 +20,10 @@ namespace AdventOfCode
             Day3 day3 = new Day3("Inputs/day3.txt");
             Console.WriteLine("Day 3 Part 1: " + day3.Part1());
             Console.WriteLine("Day 3 Part 2: " + day3.Part2());
+            Console.ReadLine();*/
+            Day4 day4 = new Day4("Inputs/day4.txt");
+            Console.WriteLine(day4.Part1());
+            Console.WriteLine(day4.Part2());
             Console.ReadLine();
         }
     }
