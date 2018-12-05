@@ -20,10 +20,16 @@ namespace AdventOfCode
             Day3 day3 = new Day3("Inputs/day3.txt");
             Console.WriteLine("Day 3 Part 1: " + day3.Part1());
             Console.WriteLine("Day 3 Part 2: " + day3.Part2());
-            Console.ReadLine();*/
+            Console.ReadLine();
+
             Day4 day4 = new Day4("Inputs/day4.txt");
             Console.WriteLine(day4.Part1());
             Console.WriteLine(day4.Part2());
+            Console.ReadLine();*/
+
+            Day5 day5 = new Day5("Inputs/day5.txt");
+            Console.WriteLine(day5.Part1());
+            Console.WriteLine(day5.Part2());
             Console.ReadLine();
         }
     }
